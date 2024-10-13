@@ -1,1 +1,17 @@
 /* your code */
+table {
+	width: 100%;
+}
+
+th, td{
+	text-align: left;
+	padding: 10px;
+}
+
+thead {
+	background-color: teal;
+}
+
+tbody > tr:nth-child(even) {
+	background-color: grey;
+}
